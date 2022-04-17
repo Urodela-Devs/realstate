@@ -1,0 +1,19 @@
+// html * {
+//     font-family: 'Montserrat', sans-serif;
+// }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+        color: $color_primary;
+    }
+}

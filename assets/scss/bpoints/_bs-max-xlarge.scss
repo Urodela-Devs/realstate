@@ -1,0 +1,34 @@
+@media (min-width: $bs-max-xlarge) {
+    .hero {
+        & h1 {
+            font-size: $titles6;
+            line-height: $titles6;
+        }
+    }
+    .carousel {
+        &-text {
+            margin-top: 20%;
+            padding: 20px 80px;
+            width: 1024px;
+            height: 320px;
+            left: 50%;
+            transform: translate(-50%, -30%);
+            text-align: center;
+            font-size: $p3;
+            line-height: $p4;
+        }
+    }
+    .contact {
+        &-header {
+            & h2 {
+                width: 100%;
+                font-size: $titles6;
+                line-height: $titles6;
+            }
+            & p {
+                font-size: $p2;
+                line-height: $p5;
+            }
+        }
+    }
+}

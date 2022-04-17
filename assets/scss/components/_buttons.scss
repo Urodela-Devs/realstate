@@ -1,0 +1,27 @@
+.action,
+.action2 {
+    padding: 7px 45px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.action {
+    background: none;
+    border: 1px solid $w2-contrast;
+    color: $w2-contrast;
+    &:hover {
+        background: $w2-contrast;
+        color: $color_primary;
+    }
+}
+
+.action2 {
+    background: $color-primary;
+    color: white;
+    border: 1px solid $color-primary;
+    &:hover {
+        background: none;
+        color: $color_primary;
+        border: 1px solid $color-primary;
+    }
+}

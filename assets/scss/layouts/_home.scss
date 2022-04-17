@@ -1,0 +1,38 @@
+.hero,
+.overlay {
+    @include wh-props;
+}
+
+.overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero {
+    & h1 {
+        font-size: $titles1;
+        line-height: $titles2;
+        margin-bottom: 15px;
+    }
+    height: 85vh;
+    position: relative;
+    @include flex-props-column;
+    background-image: url('./images/hero-bg.jpg');
+    @include bg-fix-props;
+}
+
+.carousel {
+    &-text {
+        font-size: $p1;
+        line-height: $p2;
+        margin-top: 65%;
+        transform: translate(0, -10%);
+        padding: 30px;
+        z-index: 10 !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        color: $w2-contrast;
+    }
+}

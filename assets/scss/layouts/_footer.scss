@@ -1,0 +1,14 @@
+#footer {
+    padding-bottom: 50px;
+    @include wh-props;
+    @include flex-props-column;
+    color: $w-contrast;
+    background-color: $color_primary;
+    & p {
+        margin: 5px;
+    }
+}
+
+.rsmall {
+    font-size: 0.7rem;
+}

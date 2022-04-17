@@ -1,0 +1,12 @@
+@media (min-width: $tab-large) {
+    .navbar {
+        &-brand {
+            & img {
+                width: 230px;
+            }
+        }
+    }
+    .hero {
+        height: 80vh;
+    }
+}

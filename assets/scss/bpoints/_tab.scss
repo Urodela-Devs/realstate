@@ -1,0 +1,53 @@
+@media (min-width: $tab) {
+    .hero {
+        & h1 {
+            font-size: $titles3;
+            line-height: $titles4;
+        }
+    }
+    .carousel {
+        &-text {
+            margin-top: 20%;
+            padding: 20px 80px;
+            width: 700px;
+            height: 320px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            text-align: center;
+            font-size: $p1;
+            line-height: $p2;
+        }
+    }
+    .contact {
+        width: 100%;
+        height: 70vh;
+        background-image: url('./images/contact-bg.png');
+        &-header {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            & h2 {
+                width: 320px;
+                font-size: $titles3;
+                line-height: $titles4;
+            }
+            & p {
+                width: 320px;
+                font-size: $p1;
+                line-height: $p2;
+            }
+        }
+        & form {
+            & input {
+                padding: 17px;
+            }
+        }
+    }
+    #footer {
+        & p {
+            font-size: $p1;
+            line-height: $p2;
+        }
+    }
+}

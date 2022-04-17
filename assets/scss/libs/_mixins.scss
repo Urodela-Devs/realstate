@@ -1,0 +1,38 @@
+@mixin wh-props {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin flex-props-column {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@mixin flex-props-row {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@mixin bg-props {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+@mixin bg-pos {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin bg-fix-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

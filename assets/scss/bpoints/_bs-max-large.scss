@@ -1,0 +1,14 @@
+@media (min-width: $bs-max-large) {
+    .contact {
+        &-header {
+            & h2 {
+                width: 320px;
+                font-size: $titles3;
+                line-height: $titles4;
+            }
+            & p {
+                width: 500px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.navbar {
+    padding: 20px;
+    &-brand {
+        padding: 20px 0;
+        & img {
+            width: 190px;
+        }
+    }
+}
+
+.brand {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &-logo {
+        width: fit-content;
+    }
+    &-action {
+        margin-right: 0;
+    }
+}

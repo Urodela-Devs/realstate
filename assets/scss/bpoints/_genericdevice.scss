@@ -1,0 +1,9 @@
+@media (min-width: $bs-min) {
+    .navbar {
+        &-brand {
+            & img {
+                width: 250px;
+            }
+        }
+    }
+}

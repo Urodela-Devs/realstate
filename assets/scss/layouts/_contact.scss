@@ -1,0 +1,35 @@
+.contact {
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+    &-header {
+        & h2 {
+            font-size: $titles1;
+            line-height: $titles2;
+        }
+        & p {
+            font-size: $p1;
+            line-height: $p2;
+        }
+    }
+    padding: 50px 40px;
+    display: flex;
+    flex-flow: column;
+    background-image: url('./images/contact-bg-m.png');
+    @include bg-pos;
+    & form {
+        padding: 15px 0;
+        & input {
+            margin: 10px 0 !important;
+            border: 1px solid #8a8a8a;
+            border-radius: 10px;
+            padding: 8px;
+        }
+        & textarea {
+            margin: 10px 0 !important;
+            border: 1px solid #8a8a8a;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    }
+}
